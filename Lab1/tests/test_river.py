@@ -1,6 +1,6 @@
 import unittest
 
-from missionaries_cannibals.main import solve
+from Lab1.Experiment2 import solve
 
 
 class RiverTests(unittest.TestCase):

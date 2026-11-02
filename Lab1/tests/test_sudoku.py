@@ -1,6 +1,6 @@
 import unittest
 
-from sudoku.main import solve
+from Lab1.Experiment3 import solve
 
 
 PUZZLE = [
