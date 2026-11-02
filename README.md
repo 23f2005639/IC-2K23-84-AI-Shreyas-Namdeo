@@ -1,16 +1,21 @@
-AI Lab - Shreyas Namdeo (IC-2K23-84)
+# AI Lab - Shreyas Namdeo
 
-Three Python 3 assignments. No extra packages needed.
-Run these commands from the main project folder:
+Roll number: IC-2K23-84
 
-Water Jug: python3 water_jug/main.py
-Missionaries and Cannibals: python3 missionaries_cannibals/main.py
-Sudoku: python3 sudoku/main.py
+## Lab 1
 
-Each program takes input and prints its solution.
-Each assignment folder has a short README and tests.
+| Experiment | Problem | Method |
+| --- | --- | --- |
+| 1 | Water Jug | BFS |
+| 2 | Missionaries and Cannibals | BFS |
+| 3 | Sudoku | Backtracking |
 
-Run tests:
-python3 -m unittest discover -s water_jug
-python3 -m unittest discover -s missionaries_cannibals
-python3 -m unittest discover -s sudoku
+Python 3; no extra packages required.
+
+```bash
+python3 Lab1/Experiment1.py
+python3 Lab1/Experiment2.py
+python3 Lab1/Experiment3.py
+```
+
+See [Lab1/README.md](Lab1/README.md) for inputs, algorithms and analysis.

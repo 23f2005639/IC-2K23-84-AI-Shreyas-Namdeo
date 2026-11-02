@@ -1,6 +1,6 @@
 import unittest
 
-from water_jug.main import solve
+from Lab1.Experiment1 import solve
 
 
 class WaterJugTests(unittest.TestCase):
