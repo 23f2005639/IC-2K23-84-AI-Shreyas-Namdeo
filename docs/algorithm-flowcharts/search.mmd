@@ -1,0 +1,9 @@
+flowchart TD
+    A[Read start and goal] --> B[Add start to frontier]
+    B --> C{Frontier empty?}
+    C -->|Yes| D[No solution]
+    C -->|No| E[Select next state]
+    E --> F{Goal reached?}
+    F -->|Yes| G[Return parent path]
+    F -->|No| H[Expand valid moves and update frontier]
+    H --> C
