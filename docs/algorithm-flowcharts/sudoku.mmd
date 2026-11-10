@@ -1,0 +1,13 @@
+flowchart TD
+    A[Validate clues] --> B{Empty cell?}
+    B -->|No| C[Return solved grid]
+    B -->|Yes| D[Try digits 1 to 9]
+    D --> E{Allowed in row column and box?}
+    E -->|Yes| F[Place digit and recurse]
+    F --> G{Solved?}
+    G -->|Yes| C
+    G -->|No| H[Clear cell and try next digit]
+    E -->|No| H
+    H --> I{Candidates left?}
+    I -->|Yes| D
+    I -->|No| J[Backtrack]
